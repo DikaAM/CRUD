@@ -1,0 +1,30 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: warungayah
+    password: warungayah
+    url: jdbc:postgresql://localhost:5432/warungayah
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maximumPoolSize: 15
+      autoCommit: true
+      poolName: warungAyah
+      maxLifeTime: 1800000
+      connectionTimeOut: 30000
+      minimumIdle: 10
+      idleTimeOut: 100
+    timeBetweenEvictionRunsMillis: 18800
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+
+      use-new-id-generator-mappings: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+logging:
+  level:
+    web: DEBUG
