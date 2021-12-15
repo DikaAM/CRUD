@@ -2,7 +2,6 @@ package com.example.demo.service;
 
 import com.example.demo.dtos.ProductRequest;
 import com.example.demo.dtos.ProductResponse;
-import com.example.demo.models.Product;
 
 import java.util.List;
 

@@ -3,7 +3,6 @@ package com.example.demo.dtos;
 import lombok.Builder;
 import lombok.Data;
 
-import java.math.BigInteger;
 import java.util.Date;
 
 @Data
@@ -14,6 +13,6 @@ public class ProductResponse {
     private Date dateInput;
     private String name;
     private String merek;
-    private BigInteger harga;
+    private int harga;
     private int jumlah;
 }

@@ -30,7 +30,7 @@ public class Product extends BaseEntity {
 
     private int jumlah;
 
-    private BigInteger harga;
+    private int harga;
 
 
 }
